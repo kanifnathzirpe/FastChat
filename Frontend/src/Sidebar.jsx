@@ -2,6 +2,7 @@ import "./Sidebar.css";
 import { useContext, useEffect } from "react";
 import { MyContext } from "./MyContext";
 import {v1 as uuidv1} from "uuid";
+import logo from "../assets/blacklogo.png";
 
 function Sideabar() {
     const {allThreads, setAllThreads, currThreadId, newChat, setNewChat, setPrompt, setReply, setcurrThreadId, setPrevChats} = useContext(MyContext);
@@ -61,7 +62,7 @@ function Sideabar() {
         <section className="sidebar">
             {/* new chat button */}
             <button onClick={createNewChat}>
-                <img src="/assets/blacklogo.png" alt="logo" className="logo" />
+                <img src="{logo}" alt="logo" className="logo" />
                 <h3>FastChat</h3>
             </button>
 
