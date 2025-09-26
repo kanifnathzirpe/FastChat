@@ -2,7 +2,7 @@ import "./Sidebar.css";
 import { useContext, useEffect } from "react";
 import { MyContext } from "./MyContext";
 import {v1 as uuidv1} from "uuid";
-import logo from "../assets/blacklogo.png";
+import logo from "./assets/blacklogo.png";
 
 function Sideabar() {
     const {allThreads, setAllThreads, currThreadId, newChat, setNewChat, setPrompt, setReply, setcurrThreadId, setPrevChats} = useContext(MyContext);
