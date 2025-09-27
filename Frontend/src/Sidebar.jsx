@@ -62,7 +62,7 @@ function Sideabar() {
         <section className="sidebar">
             {/* new chat button */}
             <button onClick={createNewChat}>
-                <img src="{logo}" alt="logo" className="logo" />
+                <img src={logo} alt="logo" className="logo" />
                 <h3>FastChat</h3>
             </button>
 
