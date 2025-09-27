@@ -16,6 +16,9 @@ app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
     connectDB();
 });
+
+app.get("/", (req, res) => res.send("Backend is running!"));
+
  
 const connectDB = async () => {
     try {
