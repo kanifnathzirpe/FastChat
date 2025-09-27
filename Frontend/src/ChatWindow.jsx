@@ -26,7 +26,7 @@ function ChatWindow() {
         };
 
             try {
-                const response = await fetch("https://fast-chat-backend.onrender.com/api/chat", options);
+                const response = await fetch("https://fast-chat-m6uv.onrender.com/api/chat", options);
                 const res = await response.json();
                 
                 
