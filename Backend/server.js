@@ -13,7 +13,7 @@ app.use(cors());
 app.use("/api", chatRoutes);
 
 app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
+    console.log(`Server is running on https://fast-chat-m6uv.onrender.com/`);
     connectDB();
 });
 
